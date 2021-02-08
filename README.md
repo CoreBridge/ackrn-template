@@ -3,6 +3,22 @@
 
 This project was bootstrapped with [dotnet new react](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-new) and [Create React App](https://github.com/facebook/create-react-app).
 
+## Getting Started
+
+In the `client-app` folder you must run
+
+```
+npm i
+```
+
+You probably need to run
+
+```
+dotnet dev-certs https --trust
+```
+
+in order for SSL certs to serve correctly
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -21,13 +37,4 @@ You will also see any lint errors in the console.
 
 ### `React` web client
 
-## Troubleshooting
-
-You probably need to run
-
-```
-dotnet dev-certs https --trust
-```
-
-in order for SSL certs to serve correctly
 
